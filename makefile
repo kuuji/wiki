@@ -6,7 +6,7 @@ package:
 	git add pages
 	git commit -m $(COMMIT_MESSAGE)
 	git checkout gh-pages
-	rm -f css fonts img index.html js
+	rm -rf css fonts img index.html js
 	mv site/* .
 	rm -rf site
 	git add .
