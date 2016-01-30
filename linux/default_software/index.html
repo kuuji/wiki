@@ -4,17 +4,17 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Personnal wiki for howtos / tips&tricks / scripts /etc">
+        
         <meta name="author" content="Kuuji">
         
-        <link rel="shortcut icon" href="./img/favicon.ico">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
 
-        <title>Wiki kuuji</title>
+        <title>Default software - Wiki kuuji</title>
 
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link href="./css/prettify-1.0.css" rel="stylesheet">
-        <link href="./css/base.css" rel="stylesheet">
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../../css/prettify-1.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -41,7 +41,7 @@
             </button>
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">Wiki kuuji</a>
+            <a class="navbar-brand" href="../..">Wiki kuuji</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -55,7 +55,7 @@
                     <ul class="dropdown-menu">
                     
                         <li >
-                            <a href="git/aliases/">Aliases</a>
+                            <a href="../../git/aliases/">Aliases</a>
                         </li>
                     
                     </ul>
@@ -63,12 +63,12 @@
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
-                        <li >
-                            <a href="linux/default_software/">Default software</a>
+                        <li class="active">
+                            <a href="./">Default software</a>
                         </li>
                     
                     </ul>
@@ -80,13 +80,13 @@
             <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
                 
-                <li class="disabled">
-                    <a rel="next" >
+                <li >
+                    <a rel="next" href="../../git/aliases/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="git/aliases/">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -107,38 +107,33 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#welcome">Welcome</a></li>
+        <li class="main active"><a href="#gerer-les-softs-par-defaut-update-alternatives">Gérer les softs par défaut : update-alternatives</a></li>
+        
+            <li><a href="#editeur-en-ligne-de-commande">Editeur en ligne de commande</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="welcome">Welcome</h1>
-<p>This is a personnal wiki containing :</p>
-<ul>
-<li>Howto</li>
-<li>Tips &amp; Tricks</li>
-<li>Scripts</li>
-<li>Conf example</li>
-<li>etc...</li>
-</ul>
-<p>It is used as a resources database about :</p>
-<ul>
-<li>Linux</li>
-<li>Network</li>
-<li>Development</li>
-<li>Ochestration</li>
-<li>etc..</li>
-</ul>
+<h1 id="gerer-les-softs-par-defaut-update-alternatives">Gérer les softs par défaut : update-alternatives</h1>
+<h2 id="editeur-en-ligne-de-commande">Editeur en ligne de commande</h2>
+<pre class="prettyprint well"><code>update-alternatives --config editor
+</code></pre>
+
+<p>Java</p>
+<pre class="prettyprint well"><code>update-alternatives --config java
+update-alternatives --install /usr/bin/java java &lt;path_to_java_bin&gt; 1
+</code></pre>
+
 </div>
         </div>
 
         
 
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/prettify-1.0.min.js"></script>
-        <script src="./js/base.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/prettify-1.0.min.js"></script>
+        <script src="../../js/base.js"></script>
     </body>
 </html>
