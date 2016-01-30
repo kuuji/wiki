@@ -6,7 +6,7 @@ package:
 	git add pages
 	git commit -m $(COMMIT_MESSAGE)
 	git checkout gh-pages
-	/bin/co site/* .
+	/bin/cp -R site/* .
 	rm -rf site
 	git add .
 	git commit -m $(COMMIT_MESSAGE)
@@ -14,3 +14,7 @@ package:
 push:
 	git push origin master
 	git push origin gh-pages
+publish:
+	build
+	package
+	push
