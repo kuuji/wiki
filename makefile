@@ -15,6 +15,4 @@ push:
 	git push origin master
 	git push origin gh-pages
 publish:
-	build
-	package
-	push
+	make build package push
