@@ -11,3 +11,7 @@ package:
 	rm -rf site
 	git add .
 	git commit -m $(COMMIT_MESSAGE)
+	git checkout master
+push:
+	git push origin master
+	git push origin gh-pages
