@@ -1,12 +1,8 @@
 # Welcome
 
-This is a personnal wiki containing :
+> This is a personnal wiki containing Howtos , Tips & Tricks, Scripts, Configuration example, etc...
 
-* Howto
-* Tips & Tricks
-* Scripts
-* Conf example
-* etc...
+![alt text](img/devops.png "devops")
 
 It is used as a resources database about :
 
