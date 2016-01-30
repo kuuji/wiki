@@ -1,0 +1,9 @@
+site_name: Wiki kuuji
+site_description: Personnal wiki for howtos / tips&tricks / scripts /etc
+site_author: Kuuji
+docs_dir: pages
+use_directory_urls: true
+strict: false
+repo_url: https://github.com/kuuji/wiki.git
+repo_name: Wiki
+theme: flatly
