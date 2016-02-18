@@ -7,14 +7,14 @@
         
         <meta name="author" content="Kuuji">
         
-        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
 
-        <title>Aliases - Wiki kuuji</title>
+        <title>Fedora - Wiki kuuji</title>
 
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link href="../../css/prettify-1.0.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../../../css/prettify-1.0.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -41,7 +41,7 @@
             </button>
 
             <!-- Main title -->
-            <a class="navbar-brand" href="../..">Wiki kuuji</a>
+            <a class="navbar-brand" href="../../..">Wiki kuuji</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -50,12 +50,12 @@
             <ul class="nav navbar-nav">
             
             
-                <li class="dropdown active">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Git <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
-                        <li class="active">
-                            <a href="./">Aliases</a>
+                        <li >
+                            <a href="../../../git/aliases/">Aliases</a>
                         </li>
                     
                     </ul>
@@ -63,20 +63,20 @@
             
             
             
-                <li class="dropdown">
+                <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
                         <li >
-                            <a href="../../linux/default_software/">Default software</a>
+                            <a href="../../default_software/">Default software</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">Fedora</a>
                         </li>
                     
                         <li >
-                            <a href="../../linux/fedora/default_software/">Fedora</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../linux/ubuntu/default_software/">Ubuntu</a>
+                            <a href="../../ubuntu/default_software/">Ubuntu</a>
                         </li>
                     
                     </ul>
@@ -89,12 +89,12 @@
             <ul class="nav navbar-nav navbar-right">
                 
                 <li >
-                    <a rel="next" href="../..">
+                    <a rel="next" href="../../default_software/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../../linux/default_software/">
+                    <a rel="prev" href="../../ubuntu/default_software/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -115,22 +115,23 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#convenient-git-aliases">Convenient git aliases</a></li>
+        <li class="main active"><a href="#gerer-les-softs-par-defaut-update-alternatives">Gérer les softs par défaut : update-alternatives</a></li>
+        
+            <li><a href="#editeur-en-ligne-de-commande">Editeur en ligne de commande</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="convenient-git-aliases">Convenient git aliases</h1>
-<pre class="prettyprint well"><code>git config --global alias.st status
-git config --global alias.co checkout
-git config --global alias.ci commit
-git config --global alias.undo &quot;reset --hard&quot;
-git config --global alias.changes &quot;diff --name-status -r&quot;
-git config --global alias.diff &quot;diff --stat -r&quot;
-git config --global alias.br branch
-git config --global alias.tree &quot;log --graph --oneline --all --pretty=format:'%C(yellow)%h%Creset -%Cred%d%Creset %s %Cgreen%cr%Creset %Cblue%an%Creset %gn'&quot;
+<h1 id="gerer-les-softs-par-defaut-update-alternatives">Gérer les softs par défaut : update-alternatives</h1>
+<h2 id="editeur-en-ligne-de-commande">Editeur en ligne de commande</h2>
+<pre class="prettyprint well"><code>update-alternatives --config editor
+</code></pre>
+
+<p>Java</p>
+<pre class="prettyprint well"><code>update-alternatives --config java
+update-alternatives --install /usr/bin/java java &lt;path_to_java_bin&gt; 1
 </code></pre>
 
 </div>
@@ -139,8 +140,8 @@ git config --global alias.tree &quot;log --graph --oneline --all --pretty=format
         
 
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script src="../../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../../js/prettify-1.0.min.js"></script>
-        <script src="../../js/base.js"></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../../js/prettify-1.0.min.js"></script>
+        <script src="../../../js/base.js"></script>
     </body>
 </html>
