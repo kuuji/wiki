@@ -1,5 +1,6 @@
 # Gérer les softs par défaut : update-alternatives
 
+fedore
 ## Editeur en ligne de commande
 ```
 update-alternatives --config editor
