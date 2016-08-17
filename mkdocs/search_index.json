@@ -1,0 +1,69 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome\n\n\n\n\nThis is a personnal wiki containing Howtos , Tips \n Tricks, Scripts, Configuration example, etc...\n\n\n\n\n\n\nIt is used as a resources database about :\n\n\n\n\nLinux\n\n\nNetwork\n\n\nDevelopment\n\n\nOchestration\n\n\netc..",
+            "title": "Home"
+        },
+        {
+            "location": "/#welcome",
+            "text": "This is a personnal wiki containing Howtos , Tips   Tricks, Scripts, Configuration example, etc...    It is used as a resources database about :   Linux  Network  Development  Ochestration  etc..",
+            "title": "Welcome"
+        },
+        {
+            "location": "/git/aliases/",
+            "text": "Convenient git aliases\n\n\ngit config --global alias.st status\ngit config --global alias.co checkout\ngit config --global alias.ci commit\ngit config --global alias.undo \nreset --hard\n\ngit config --global alias.changes \ndiff --name-status -r\n\ngit config --global alias.diff \ndiff --stat -r\n\ngit config --global alias.br branch\ngit config --global alias.tree \nlog --graph --oneline --all --pretty=format:'%C(yellow)%h%Creset -%Cred%d%Creset %s %Cgreen%cr%Creset %Cblue%an%Creset %gn'",
+            "title": "Aliases"
+        },
+        {
+            "location": "/git/aliases/#convenient-git-aliases",
+            "text": "git config --global alias.st status\ngit config --global alias.co checkout\ngit config --global alias.ci commit\ngit config --global alias.undo  reset --hard \ngit config --global alias.changes  diff --name-status -r \ngit config --global alias.diff  diff --stat -r \ngit config --global alias.br branch\ngit config --global alias.tree  log --graph --oneline --all --pretty=format:'%C(yellow)%h%Creset -%Cred%d%Creset %s %Cgreen%cr%Creset %Cblue%an%Creset %gn'",
+            "title": "Convenient git aliases"
+        },
+        {
+            "location": "/linux/default_software/",
+            "text": "G\u00e9rer les softs par d\u00e9faut : update-alternatives\n\n\nEditeur en ligne de commande\n\n\nupdate-alternatives --config editor\n\n\n\n\nJava\n\n\nupdate-alternatives --config java\nupdate-alternatives --install /usr/bin/java java \npath_to_java_bin\n 1",
+            "title": "Default software"
+        },
+        {
+            "location": "/linux/default_software/#gerer-les-softs-par-defaut-update-alternatives",
+            "text": "",
+            "title": "G\u00e9rer les softs par d\u00e9faut : update-alternatives"
+        },
+        {
+            "location": "/linux/default_software/#editeur-en-ligne-de-commande",
+            "text": "update-alternatives --config editor  Java  update-alternatives --config java\nupdate-alternatives --install /usr/bin/java java  path_to_java_bin  1",
+            "title": "Editeur en ligne de commande"
+        },
+        {
+            "location": "/linux/fedora/default_software/",
+            "text": "G\u00e9rer les softs par d\u00e9faut : update-alternatives\n\n\nfedore\n\n\nEditeur en ligne de commande\n\n\nupdate-alternatives --config editor\n\n\n\n\nJava\n\n\nupdate-alternatives --config java\nupdate-alternatives --install /usr/bin/java java \npath_to_java_bin\n 1",
+            "title": "Default software"
+        },
+        {
+            "location": "/linux/fedora/default_software/#gerer-les-softs-par-defaut-update-alternatives",
+            "text": "fedore",
+            "title": "G\u00e9rer les softs par d\u00e9faut : update-alternatives"
+        },
+        {
+            "location": "/linux/fedora/default_software/#editeur-en-ligne-de-commande",
+            "text": "update-alternatives --config editor  Java  update-alternatives --config java\nupdate-alternatives --install /usr/bin/java java  path_to_java_bin  1",
+            "title": "Editeur en ligne de commande"
+        },
+        {
+            "location": "/linux/ubuntu/default_software/",
+            "text": "G\u00e9rer les softs par d\u00e9faut : update-alternatives\n\n\nEditeur en ligne de commande\n\n\nupdate-alternatives --config editor\n\n\n\n\nJava\n\n\nupdate-alternatives --config java\nupdate-alternatives --install /usr/bin/java java \npath_to_java_bin\n 1",
+            "title": "Default software"
+        },
+        {
+            "location": "/linux/ubuntu/default_software/#gerer-les-softs-par-defaut-update-alternatives",
+            "text": "",
+            "title": "G\u00e9rer les softs par d\u00e9faut : update-alternatives"
+        },
+        {
+            "location": "/linux/ubuntu/default_software/#editeur-en-ligne-de-commande",
+            "text": "update-alternatives --config editor  Java  update-alternatives --config java\nupdate-alternatives --install /usr/bin/java java  path_to_java_bin  1",
+            "title": "Editeur en ligne de commande"
+        }
+    ]
+}
