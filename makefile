@@ -3,8 +3,6 @@ include env_make
 build:
 	docker run --rm -i -t -v $(shell pwd):/docs jobandtalent/mkdocs build --clean
 package:
-	git add pages
-	git commit -m $(COMMIT_MESSAGE)
 	git checkout gh-pages
 	/bin/cp -R site/* .
 	rm -rf site
