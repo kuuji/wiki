@@ -1,7 +1,7 @@
 include env_make
 
 build:
-	docker run --rm -i -t -v $(shell pwd):/docs jobandtalent/mkdocs build --clean
+	mkdocs build --clean
 package:
 	git checkout gh-pages
 	/bin/cp -R site/* .
